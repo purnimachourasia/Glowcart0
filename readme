@@ -1,0 +1,79 @@
+# Viorra - Cosmetic E-commerce App (React Native CLI)
+
+A minimal cosmetic e-commerce app built using **React Native CLI**.  
+It includes **Register**, **Profile**, **Product List**, and **Product Details** screens with UI inspired by the given designs.
+
+---
+
+##  Features
+
+### 1. Register Screen
+- User registration with form validation.
+- Styled UI matching provided design.
+
+### 2. Profile Screen
+- Mock user profile info (name, email, avatar).
+- Sections:
+  - Address
+  - Order History
+  - Language
+  - Notifications
+  - Contact Us
+  - Get Help
+  - Privacy Policy
+  - Terms & Conditions
+  - Logout
+
+### 3. Product List Screen
+- Fetches product data from [DummyJSON API](https://dummyjson.com/products).
+- Search bar to filter products by name.
+- Filter button (UI only, optional functionality).
+- Grid layout with product image, title, and price.
+
+### 4. Product Details Screen
+- Large product image.
+- Title, description, and seller info.
+- Ratings and reviews (mock data).
+- Price with discount display.
+- Highlights (dimensions, warranty, shipping).
+- “Add to Bag” button.
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/viorra-ecommerce.git
+   cd viorra-ecommerce
+
+2.Install dependencies
+
+   npm install
+   # or
+   yarn install
+
+3.Start Metro bundler
+   
+   npx react-native start
+
+4.Run the app on Android   
+
+   npx react-native run-android
+
+5.Run the app on iOS (Mac only)   
+
+   npx react-native run-ios
+
+🔗 API Used
+
+   DummyJSON Products API
+
+🛠️ Tech Stack
+
+   React Native CLI
+
+   React Navigation
+
+   Axios (for API calls)
+
